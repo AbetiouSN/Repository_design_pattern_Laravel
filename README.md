@@ -4,7 +4,10 @@
 
 ![image](https://github.com/AbetiouSN/Repository_design_pattern_Laravel/assets/89549277/52c55ec3-0ef6-4c3f-a5d0-91974345e5e6)
 
-* Les requêtes HTTP sont reçues par le contrôleur (Controller), qui les dirige vers les méthodes appropriées.* Le contrôleur utilise les services (Service) pour gérer la logique métier associée aux produits.* Les services interagissent avec les repositories pour accéder aux données des produits.* Les repositories utilisent les modèles (Models) pour interagir avec la base de données et effectuer les opérations CRUD.* Les données sont renvoyées par les modèles aux repositories, puis aux services, et finalement au contrôleur.* Le contrôleur peut ensuite utiliser les vues pour formater les données et les présenter à l'utilisateur final via une réponse HTTP appropriée.
+* Les requêtes HTTP sont reçues par le contrôleur (Controller), qui les dirige vers les méthodes appropriées.
+* Le contrôleur utilise les services (Service) pour gérer la logique métier associée aux produits.* Les services interagissent avec les repositories pour accéder aux données des produits.
+* Les repositories utilisent les modèles (Models) pour interagir avec la base de données et effectuer les opérations CRUD.
+* Les données sont renvoyées par les modèles aux repositories, puis aux services, et finalement au contrôleur.* Le contrôleur peut ensuite utiliser les vues pour formater les données et les présenter à l'utilisateur final via une réponse HTTP appropriée.
 ![image](https://github.com/AbetiouSN/Repository_design_pattern_Laravel/assets/89549277/af6c894d-2d4a-4d4a-b30d-13958dbfbbc9)
 
 # Le Model (Product) :
